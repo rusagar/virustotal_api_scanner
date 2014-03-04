@@ -2,7 +2,7 @@
 require_once('VirusTotalApiV2.php');
 
 /* Initialize the VirusTotalApi class.*/
-$api = new VirusTotalAPIV2('163ad0c5a2e0f3ad04615d1b81de1232a98ab1309e617cdb0997fcab8300a2da'); //API key goes here
+$api = new VirusTotalAPIV2('API_KEY'); //API key goes here
 
 /* Upload and scan a local file. */
 $result = $api->scanFile('foo.txt');
