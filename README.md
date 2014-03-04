@@ -3,6 +3,10 @@ virustotal_api_scanner
 
 This is a PHP sdk to interact with Virus Total Public API v2.0, please see https://www.virustotal.com/en/documentation/public-api for details
 
+<h3>Edit API KEY</h3>
+Line 5 of VirusTotalApiV2_Example.php page
+$api = new VirusTotalAPIV2('API_KEY'); //API key goes here
+
 ## Quick start:
 ```
 <?php
